@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    color: black;
 }
 
 p {
@@ -21,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #32475A !important;
+    color: #E4606C !important;
 }
 
 h1,
@@ -32,7 +33,10 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 400;
+}
+h1{
+    font-size: 3em;
 }
 
 hr.star-light,
@@ -80,13 +84,13 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #FC6975;
+    /*color: #fff;*/
+    /*background: #FC6975;*/
 }
 
 header .container {
     padding-top: 100px;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
 }
 
 header img {
@@ -98,14 +102,22 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
 }
+.picture{
+    border-radius: 100%;  
+    width:300px;
+    max-width: 40%;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #272727;
+}
+
 
 @media(min-width:768px) {
     header .container {
@@ -149,7 +161,7 @@ header .intro-text .skills {
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .navbar a:focus {
@@ -170,12 +182,13 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2.2em;
+    padding-bottom: 20px;
 }
 
 section.success {
@@ -457,7 +470,7 @@ footer .footer-below {
 }
 
 .navbar-default{
-    background-color: #E05561;
+    background-color: #000;
 }
 
 .color {

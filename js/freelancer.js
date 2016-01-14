@@ -35,3 +35,27 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+
+// function source(){
+//   console.log('si llega hasta aqui')
+
+//   if (document.referrer.search('https?://(.*)google.([^/?]*)') === 0) {
+//     console.log('Google')
+//   } else if (document.referrer.search('https?://(.*)bing.([^/?]*)') === 0) {
+//     console.log('Bing')
+//   } else if (document.referrer.search('https?://(.*)yahoo.([^/?]*)') === 0) {
+//     console.log('Yahoo')
+//   } else if (document.referrer.search('https?://(.*)facebook.([^/?]*)') === 0) {
+//     console.log('Facebook')
+//   } else if (document.referrer.search('https?://(.*)twitter.([^/?]*)') === 0) {
+//     console.log('Twitter')
+//   } else {
+//     console.log('other')
+//   }
+// }
+
+// source();
+// console.log('si llega hasta acá')
+
+
